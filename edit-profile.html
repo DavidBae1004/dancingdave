@@ -37,116 +37,51 @@
       </ul>
     </div>
   </nav>
-  <main id="profile">
-    <header class="profile__headers">
-      <div class="profile_column">
-        <img src="images/avatar.jpg" />
-      </div>
-      <div class="profile__column">
-        <div class="">
-          <h1>SERRANOAREVALO</h1>
-          <a href="#">edit profile</a>
-          <i class="fa fa-cog" fa-lg></i>
-        </div>
-        <ul class="photo__numbers">
-          <li class="profile__stat">
-            <span class="stat___number">333</span> posts
-          </li>
-          <li class="profile__stat">
-            <span class="stat___number">1234</span> followers
-          </li>
-          <li class="profile__stat">
-            <span class="stat___number">132</span> following
-          </li>
-        </ul>
-        <p class="profile__bio">
-          <span class="profile__full-name">Nicolas Srrano Arevalo</span>
-          Traveling the world forever. Now: Da Nang, Vietnam
-          <a href="#" class="Profile_url">srranoarevalo.com</a>
-        </p>
-      </div>
+  <main id="edit-profile">
+  <div class="edit-profile_container">
+    <header class="edit-profile__header">
+      <img src="images/avatar.jpg" class="edit-profile__avatar" />
+      <h4 class="edit-profile__username">serranoarevalo</h4>
     </header>
-      <section class="profile_photos">
-        <div class="profile__photo">
-          <img src="images/feedphoto.jpg"/ >
-          <div class="profile__photo-overlay">
-            <span class="overlay_item">
-              <i class="fa fa-heart"></i>
-              486
-            </span>
-            <span class="overlay__item">
-              <i class="fa fa-comment"></i>
-              344
-            </span>
-          </div>
-        </div>
-        <div class="profile__photo">
-          <img src="images/feedphoto.jpg"/ >
-          <div class="profile__photo-overlay">
-            <span class="overlay_item">
-              <i class="fa fa-heart"></i>
-              486
-            </span>
-            <span class="overlay__item">
-              <i class="fa fa-comment"></i>
-              344
-            </span>
-          </div>
-        </div>
-        <div class="profile__photo">
-          <img src="images/feedphoto.jpg"/ >
-          <div class="profile__photo-overlay">
-            <span class="overlay_item">
-              <i class="fa fa-heart"></i>
-              486
-            </span>
-            <span class="overlay__item">
-              <i class="fa fa-comment"></i>
-              344
-            </span>
-          </div>
-        </div>
-        <div class="profile__photo">
-          <img src="images/feedphoto.jpg"/ >
-          <div class="profile__photo-overlay">
-            <span class="overlay_item">
-              <i class="fa fa-heart"></i>
-              486
-            </span>
-            <span class="overlay__item">
-              <i class="fa fa-comment"></i>
-              344
-            </span>
-          </div>
-        </div>
-        <div class="profile__photo">
-          <img src="images/feedphoto.jpg"/ >
-          <div class="profile__photo-overlay">
-            <span class="overlay_item">
-              <i class="fa fa-heart"></i>
-              486
-            </span>
-            <span class="overlay__item">
-              <i class="fa fa-comment"></i>
-              344
-            </span>
-          </div>
-        </div>
-        <div class="profile__photo">
-          <img src="images/feedphoto.jpg"/ >
-          <div class="profile__photo-overlay">
-            <span class="overlay_item">
-              <i class="fa fa-heart"></i>
-              486
-            </span>
-            <span class="overlay__item">
-              <i class="fa fa-comment"></i>
-              344
-            </span>
-          </div>
-        </div>
-      </section>
-    </main>
+    <form class="edit-profile__form" action="" method="post">
+      <div class="form__row">
+        <label for="full-name" class="form__label">name:</label>
+        <input id="full-name" type="text" class="form__input">
+      </div>
+      <div class="form__row">
+        <label for="user-name" class="form__label">username:</label>
+        <input id="user-name" type="text" class="form__input">
+      </div>
+      <div class="form__row">
+        <label for="website" class="form__label">website:</label>
+        <input id="website" type="url" class="form__input">
+      </div>
+      <div class="form__row">
+        <label for="bio" class="form__label">bio:</label>
+        <textarea id="bio"></textarea>
+      </div>
+      <span class="form__divider">Private Information</span>
+      <div class="form__row">
+        <label for="phone" class="form__label">phone number:</label>
+        <input id="phone" type="tel" class="form__input">
+      </div>
+      <div class="form__row">
+        <label for="gender" class="form__lable">gender:</label>
+        <select id="gender">
+          <option value="male">male</option>
+          <option value="female">female</option>
+          <option value="cant" selected>can't remember</option>
+        </select>
+      </div>
+      <div class="form__row">
+        <span class="form__label">similar account suggestion:</span>
+        <input type="checkbox" id="similar">
+        <label for="similar">Include your account when recommending similar accounts people might want to follow.</label>
+      </div>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  </main>
   <footer class="footer">
             <div class="footer__column">
                 <nav class="footer__nav">
