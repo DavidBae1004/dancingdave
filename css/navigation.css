@@ -6,13 +6,14 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 100px;
+  margin-bottom: 60px;
 }
 
-.navigation .navagatio__column:first-child img{
+.navigation .navigation__column:first-child img{
   height: 45px;
 }
 
-.navigation .naviagtion__links{
+.navigation .navigation__links{
     display: flex;
     padding: 0;
     list-style-type: none;
@@ -22,7 +23,7 @@
   margin-left: 30px;
 }
 
-.naviagtion__link{
+.navigation__link{
     color: rgba(0,0,0,0,0.8);
     font-size: 18px;
 }
@@ -43,7 +44,7 @@
     border: 1px solid #A9A9A9;
 }
 
-.navagatio__column{
+.navigation__column{
   position: relative;
 }
 

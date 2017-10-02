@@ -53,9 +53,9 @@
 
 .login__form input{
       display: block;
+      width: 100%;
       box-sizing: border-box;
       padding: 7px;
-      width: 100%;
       font-size: 14px;
       border: 0;
       border: 1px solid #e6e6e6;
