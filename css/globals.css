@@ -1,5 +1,7 @@
 body{
+    background-color: white;
     background-color: var(--background-color);
+    /*background-color writes twice for preventing the browser not reading css code*/
     font-size: 14px;
     font-family: 'Open Sans','sans-serif';
 }
