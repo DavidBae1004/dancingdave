@@ -4,7 +4,7 @@
    align-items: center;
  }
 
- #profile .profile__header {
+ #profile .profile__headers {
    max-width: 935px;
    width: 100%;
    display: flex;
@@ -25,7 +25,20 @@
 
  .profile__column:first-child img {
    border-radius: 50%;
+   transform-style: preserve-3d;
+   transition: transform 0.5s linear;
+   animation: rotateLynn 1s linear infinite;
+   margin-left: 10px;
  }
+
+@keyframes rotateLynn {
+from {
+   transform: rotateY(0turn);
+ }
+ to {
+   transform: rotateY(1turn);
+ }
+}
 
 .profile__column .profile__title,
 .profile__column .profile__stats {
@@ -51,6 +64,13 @@
     padding: 5px 25px;
     border: 1px solid #e6e6e6;
     border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.profile__title a:hover {
+    background-color: #3f99ed;
+    color: white;
+    border-color: #3f99ed;
 }
 
 .profile__title i {
@@ -114,6 +134,7 @@
     color: white;
     font-weight: 600;
     opacity: 0;
+    transition: opacity 0.2s linear;
 }
 
 .profile__photo-overlay .overlay__item {
