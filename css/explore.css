@@ -50,7 +50,7 @@
 }
 
 .explore__user-column button{
-  background-color: #3897f0;
+  background-color: var(--fd-blue);
   color: white;
   border: 0;
   font-weight: 600;

@@ -22,5 +22,5 @@ footer{
 
 .footer .footer__link{
   text-decoration: none;
-  color: #003569;
+  color: var(--link-color);
 }

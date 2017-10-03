@@ -26,9 +26,11 @@
  .profile__column:first-child img {
    border-radius: 50%;
    transform-style: preserve-3d;
-   transition: transform 0.5s linear;
+  transition: transform 0.5s linear;
    animation: rotateLynn 1s linear infinite;
    margin-left: 10px;
+   width: 90%;
+
  }
 
 @keyframes rotateLynn {
@@ -94,7 +96,7 @@ from {
 }
 
 .profile__bio a {
-   color: #003569;
+   color: var(--link-color);
    font-weight: 600;
    text-decoration: none;
    display: block;
