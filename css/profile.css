@@ -28,7 +28,6 @@
    transform-style: preserve-3d;
   transition: transform 0.5s linear;
    animation: rotateLynn 3s linear infinite;
-   margin-left: 10px;
    width: 90%;
 
  }
@@ -77,6 +76,11 @@ from {
 
 .profile__title i {
   cursor: pointer;
+  transition: transform 10s ease-in;
+}
+
+.profile__title i:hover {
+  transform: rotate(2turn);
 }
 
 .profile__column .profile__stats {
@@ -104,6 +108,8 @@ from {
 
 .profile__column .profile__bio {
    line-height: 125%;
+
+   /*between the lines, use 'line-height' */
 }
 
 #profile .profile__photos {
