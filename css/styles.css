@@ -2,10 +2,12 @@
 @import "reset.css";
 @import "variables.css";
 @import "globals.css";
-@import "login.css";
-@import "navigation.css";
-@import "footer.css";
+
 @import "explore.css";
 @import "feed.css";
 @import "profile.css";
+@import "edit-profile.css";
 @import "mobile.css";
+@import "login.css";
+@import "navigation.css";
+@import "footer.css";
